@@ -26,7 +26,9 @@ Another pure and simple landing page made in black and white.
 - Font Awesome Icons;
 - To-Top Scroller & Custom Copyright.
 
+### Install
+---
+npm install
 ### License
 ----
 You can use it, it's free.
-
