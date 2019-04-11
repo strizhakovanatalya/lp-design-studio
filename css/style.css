@@ -269,6 +269,33 @@ body{
 /* -- START END -- */
 
 /* -- ABOUT-STUDIO START -- */
+.about-studio .row{
+  display:flex;
+  justify-content: space-between;
+}
+
+.about-studio .col{
+  float:none;
+}
+
+.about-studio div.blockquote{
+  width:33%;
+}
+
+.about-studio .p-section{
+  display:flex;
+  justify-content: space-between;
+  width:67%;
+}
+
+.about-studio .p-section div{
+  width: 50%;
+}
+
+.about-studio .p-section div.p:last-child{
+  margin-left: 60px;
+}
+
 blockquote p{
   font-size: 24px;
   line-height: 38px;
@@ -370,10 +397,11 @@ blockquote span{
   top: 0;
   height: 100%;
   background-color: #cdcdcd;
-}
+} 
 /* -- ABOUT-STUDIO END -- */
 
 /* -- SERVICES START -- */
+
 .services-tab-icon{
   font-size: 48px;
 }
@@ -1276,6 +1304,28 @@ textarea.form-control{
   width: 33.33333%;
   margin-bottom:25px;
 }
+
+.about-studio .row{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-studio div.blockquote{
+  width:100%;
+}
+
+.about-studio .p-section{
+  display:inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:100%;
+}
+
+.about-studio .p-section div{
+  width:50%;
+}
+
 }
 
 @media(max-width: 767px){
@@ -1365,6 +1415,26 @@ textarea.form-control{
 .banner-img img{
   max-width: 550px;
 }
+
+.about-studio .row{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-studio div.blockquote{
+  width:100%;
+}
+
+.about-studio .p-section{
+  display:flex;
+  flex-direction: column;
+}
+
+.about-studio .p-section div{
+  width:100%;
+}
+
 }
 
 @media(max-width: 576px){
